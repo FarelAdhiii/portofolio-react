@@ -8,7 +8,7 @@ function Hero({ title, subtitle }: HeroProps) {
         <section className="hero">
             <div className="hero-content">
                 <img
-                    src="{`${import.meta.env.BASE_URL}images/profil.jpeg"
+                    src={`${import.meta.env.BASE_URL}images/profil.jpeg`)
                     alt="Foto Profil"
                     className="profile-photo"
                 />
