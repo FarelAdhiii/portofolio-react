@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Website Portofolio Pribadi",
         desc: "Aplikasi SPA yang menampilkan profil, daftar proyek, dan formulir kontak.",
-        image: {`${import.meta.env.BASE_URL}images/project-portofolio.png`},
+        image: `${import.meta.env.BASE_URL}images/project-portofolio.png`,
         tech: ["React", "TypeScript", "CSS"],
         githuburl: "https://github.com/osc4rmk/Private-Portfolio",
         demourl: "https://portofolio-fa.netlify.app"
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "Aplikasi Resepsi Hotel",
         desc: "Aplikasi untuk mengelola reservasi dan informasi hotel.",
-        image: {`${import.meta.env.BASE_URL}images/project-resepsi.png`},
+        image: `${import.meta.env.BASE_URL}images/project-resepsi.png`,
         tech: ["React", "JavaScript", "Tailwind CSS"],
         githuburl: "https://github.com/osc4rmk/wip",
         demourl: "https://github.com/osc4rmk/wip"
